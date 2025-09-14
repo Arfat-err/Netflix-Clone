@@ -4,7 +4,6 @@ import Logo from '../../assets/logo.png'
 import { useState } from 'react'
 import { login, signup } from '../../firebase'
 import netflix_spinner from '../../assets/netflix_spinner.gif'
-import { set } from 'mongoose'
 
 const Login = () => {
 const [signState , setSignstate] = useState("Sign In");
